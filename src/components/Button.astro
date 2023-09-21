@@ -1,0 +1,9 @@
+---
+const {link, text} = Astro.props;
+---
+
+<form action={link}>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mx-auto">
+        {text}
+    </button>
+</form>
