@@ -10,8 +10,22 @@ import Button from '../../components/Button.astro'
 <Button link="https://github.com/HarryFindlay03/Simple-Neural-Nets" text="Perceptron Repository"/>
 <Button link="https://github.com/HarryFindlay03/K-NN-Classifier" text="KNN Repository"/>
 
+
 ### Lowdown
+I developed in my own time a simple perceptron model that could classify an image 'bright' or 'dark' with a small number of pixels as input. I also developed
+a KNN classifier that predicted the species of plant an input was based off of attributes that were given.
+
 
 ### Key Technologies
+- Python
+
 
 ### More Information
+The perceptron model was very simple, however I implemented it completely from scratch using the mathematics behind the model. This included
+writing functions for sigmoid, returning the weighted sum (of weights of inputs), and the perceptron training function that updates the weights based on the
+output from the perceptron. This was all done in around 100 lines of code, and although simple something I am really quite happy with and something that works really
+well and shows of some of the simplicity and elegance of basic machine learning.
+
+The KNN classifier was also developed from scratch and is an implementation of the K-Nearest-Neighbour algorithm. This works by classifing a new element based of a plurality vote
+of the elements nearest neighbours. In my case I used the euclidean distance to figure out who the 'nearest' neighbours were. This is also a short program with only roughly 100 lines of code
+and also works very well returning high accuracies on its predictions. 

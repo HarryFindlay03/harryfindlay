@@ -5,3 +5,24 @@ pubDate: '2001'
 heroImage: '/ai_coursework.png'
 ---
 
+import Button from '../../components/Button.astro'
+
+
+### Lowdown
+Developed a python application that implemented a Depth-First-Search and an A* search on a maze constructed with '#'s and '-'s.
+
+
+### Key Technologies
+- Python
+
+
+### More Information
+As said above I implemented both a DFS and A* search to solve mazes. This involved choosing data structures that were suitable for the mazes
+as they were supplied in a .txt format and fine tuning the algorithms to ensure that they were operating as efficiently as possible as some of the mazes supplied
+were extremely large with 100,000s of potential nodes that could be visited by the algorithms.
+
+DFS was the more simple algorithm to implement however was less performant on the larger mazes and of course does not guarantee the optimal solution, whereas A*
+was more challenging and complex to implement, but once some of the development issues were overcome it ran really well and also was guaranteed to return the optimal path
+through the maze !
+
+This was developed to fufill the requirements of an assignment in my AI module where I achieved 92% on this coursework and an average of 88% on the entire module.
